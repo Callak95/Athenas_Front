@@ -38,7 +38,7 @@ Este projeto é o frontend de um sistema de gerenciamento de pessoas desenvolvid
    ```typescript
    export const environment = {
      production: false,
-     apiUrl: 'http://127.0.0.1:8000/api'
+     apiUrl: 'http://127.0.0.1:8000/api/pessoas/'
    };
    ```
 
