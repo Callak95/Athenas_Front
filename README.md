@@ -1,7 +1,6 @@
-Claro, aqui está o README completo do frontend:
 
 ```markdown
-# Frontend do Gerenciamento de Pessoas
+# Frontend do Gerenciamento de Pessoas - (ATHENAS TEST)
 
 Este projeto é a interface frontend de uma aplicação de gerenciamento de pessoas, utilizando Angular.
 
