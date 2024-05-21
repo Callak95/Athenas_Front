@@ -36,7 +36,7 @@ Este projeto é a interface frontend de uma aplicação de gerenciamento de pess
 
 Navegue até o diretório do projeto:
 
-```bash
+```
 cd athenas_frontend
 ```
 
