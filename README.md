@@ -42,11 +42,11 @@ Instale as dependências do projeto:
 npm install
 Inicie o servidor de desenvolvimento:
 
-``
+```
 ng serve
 Abra seu navegador e acesse http://localhost:4200.
 
-``
+```
 Validações e Mensagens
 O formulário valida os campos para garantir que nenhum campo esteja vazio.
 Não é permitido inserir valores negativos nos campos de peso e altura.
