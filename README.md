@@ -38,11 +38,10 @@ Navegue até o diretório do projeto:
 
 ```bash
 cd athenas_frontend
-
 ```
 
-```
 
+```
 Instale as dependências do projeto:
 
 ```bash
