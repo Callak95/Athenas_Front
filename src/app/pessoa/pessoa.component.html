@@ -1,0 +1,51 @@
+<h1>Gerenciamento de Pessoas</h1>
+
+<div *ngIf="mensagemSucesso" class="alert alert-success">{{ mensagemSucesso }}</div>
+<div *ngIf="mensagemErro" class="alert alert-danger">{{ mensagemErro }}</div>
+
+<form (ngSubmit)="addPessoa()">
+  <input type="text" [(ngModel)]="pessoa.nome" name="nome" placeholder="Nome" required>
+  <input type="date" [(ngModel)]="pessoa.data_nascimento" name="data_nascimento" placeholder="Data de Nascimento" required>
+  <input type="number" [(ngModel)]="pessoa.peso" name="peso" placeholder="Peso (kg)" required>
+  <input type="number" [(ngModel)]="pessoa.altura" name="altura" placeholder="Altura (cm)" required>
+  <input type="text" [(ngModel)]="pessoa.sexo" name="sexo" placeholder="Sexo" required>
+  <button type="submit">Adicionar Pessoa</button>
+</form>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Data de Nascimento</th>
+      <th>Peso (kg)</th>
+      <th>Altura (cm)</th>
+      <th>Sexo</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pessoa of pessoas">
+      <td>{{ pessoa.nome }}</td>
+      <td>{{ pessoa.data_nascimento }}</td>
+      <td>{{ pessoa.peso }}</td>
+      <td>{{ pessoa.altura }}</td>
+      <td>{{ pessoa.sexo }}</td>
+      <td>
+        <button (click)="selectPessoa(pessoa)">Editar</button>
+        <button (click)="deletePessoa(pessoa.id ?? 0)">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div *ngIf="pessoa.id" class="edit-section">
+  <h2>Editar Pessoa</h2>
+  <form (ngSubmit)="updatePessoa()">
+    <input type="text" [(ngModel)]="pessoa.nome" name="nome" placeholder="Nome" required>
+    <input type="date" [(ngModel)]="pessoa.data_nascimento" name="data_nascimento" placeholder="Data de Nascimento" required>
+    <input type="number" [(ngModel)]="pessoa.peso" name="peso" placeholder="Peso (kg)" required>
+    <input type="number" [(ngModel)]="pessoa.altura" name="altura" placeholder="Altura (cm)" required>
+    <input type="text" [(ngModel)]="pessoa.sexo" name="sexo" placeholder="Sexo" required>
+    <button type="submit">Atualizar Pessoa</button>
+  </form>
+</div>
