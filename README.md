@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento de Pessoas - Frontend (Athenas Test)
 
-Este projeto é a interface frontend de uma aplicação de gerenciamento de pessoas, utilizando Angular.
+Este projeto é a interface frontend da aplicação de gerenciamento de pessoas, utilizando Angular.
 
 ## Tecnologias Utilizadas
 
