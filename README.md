@@ -1,5 +1,3 @@
-
-```markdown
 # Sistema de Gerenciamento de Pessoas - Frontend (Athenas Test)
 
 Este projeto é a interface frontend de uma aplicação de gerenciamento de pessoas, utilizando Angular.
@@ -23,7 +21,7 @@ Este projeto é a interface frontend de uma aplicação de gerenciamento de pess
    ```bash
    git clone https://github.com/Callak95/Athenas_Front.git
    cd athenas_frontend
-   ```
+
 
 2. **Instale as dependências do projeto:**
 
