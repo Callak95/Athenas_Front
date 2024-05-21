@@ -41,7 +41,6 @@ cd athenas_frontend
 ```
 
 
-```
 Instale as dependências do projeto:
 
 ```bash
