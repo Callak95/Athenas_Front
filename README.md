@@ -38,16 +38,15 @@ Navegue até o diretório do projeto:
 cd athenas_frontend
 Instale as dependências do projeto:
 
-bash
-Copiar código
+```bash
 npm install
 Inicie o servidor de desenvolvimento:
 
-bash
-Copiar código
+```bash
 ng serve
 Abra seu navegador e acesse http://localhost:4200.
 
+```bash
 Validações e Mensagens
 O formulário valida os campos para garantir que nenhum campo esteja vazio.
 Não é permitido inserir valores negativos nos campos de peso e altura.
