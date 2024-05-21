@@ -1,27 +1,55 @@
-# AthenasFrontend
+# Frontend do Gerenciamento de Pessoas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+Este projeto é a interface frontend de uma aplicação de gerenciamento de pessoas, utilizando Angular.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Adicionar uma nova pessoa** com os campos: nome, data de nascimento, peso, altura e sexo.
+- **Exibir uma lista de pessoas** cadastradas em uma tabela.
+- **Editar informações de uma pessoa** existente.
+- **Excluir uma pessoa** da lista.
+- **Exibir mensagens de sucesso ou erro** para operações de adicionar, editar e excluir.
+- **Validações dos Campos**:
+  - O formulário valida os campos para garantir que nenhum campo esteja vazio.
+  - Não é permitido inserir valores negativos nos campos de peso e altura.
+  - Não são permitidos caracteres especiais nos campos.
+  - O sistema verifica duplicações antes de adicionar uma nova pessoa.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- HTML
+- CSS
+- TypeScript
 
-## Build
+## Estrutura do Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **app.component.html**: Estrutura básica do layout da aplicação.
+- **pessoa.component.html**: Formulário e tabela para gerenciar pessoas.
+- **pessoa.component.ts**: Lógica de negócios e comunicação com o serviço backend.
+- **pessoa.service.ts**: Serviço responsável pelas requisições HTTP para o backend.
+- **styles.css**: Estilos globais da aplicação.
 
-## Running unit tests
+## Instruções para Rodar o Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Navegue até o diretório do projeto:
 
-## Running end-to-end tests
+```bash
+cd athenas_frontend
+Instale as dependências do projeto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+bash
+Copiar código
+npm install
+Inicie o servidor de desenvolvimento:
 
-## Further help
+bash
+Copiar código
+ng serve
+Abra seu navegador e acesse http://localhost:4200.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Validações e Mensagens
+O formulário valida os campos para garantir que nenhum campo esteja vazio.
+Não é permitido inserir valores negativos nos campos de peso e altura.
+Não são permitidos caracteres especiais nos campos.
+O sistema verifica duplicações antes de adicionar uma nova pessoa.
