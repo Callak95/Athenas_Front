@@ -1,5 +1,3 @@
-Claro! Vou fornecer um README mais completo para o frontend, incluindo mais detalhes sobre a configuração e estrutura do projeto.
-
 ```markdown
 # Frontend do Gerenciamento de Pessoas - (Athenas Test)
 
