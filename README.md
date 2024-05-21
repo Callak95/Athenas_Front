@@ -43,6 +43,8 @@ npm install
 Inicie o servidor de desenvolvimento:
 
 ```
+
+```
 ng serve
 Abra seu navegador e acesse http://localhost:4200.
 
@@ -52,3 +54,4 @@ O formulário valida os campos para garantir que nenhum campo esteja vazio.
 Não é permitido inserir valores negativos nos campos de peso e altura.
 Não são permitidos caracteres especiais nos campos.
 O sistema verifica duplicações antes de adicionar uma nova pessoa.
+```
