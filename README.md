@@ -5,7 +5,7 @@ Este projeto é a interface frontend da aplicação de gerenciamento de pessoas,
 ## Tecnologias Utilizadas
 
 - Angular
-- HTML
+- HTML5
 - CSS
 - TypeScript
 
